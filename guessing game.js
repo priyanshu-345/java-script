@@ -1,4 +1,4 @@
- //uesr enters a max number & then tries to guess a random generated number between 1 to max:;
+ //user enters a max number & then tries to guess a random generated number between 1 to max:;
 const max  = prompt("enter the max number");
 const random  =  Math.floor(Math.random() * max) + 1;
 let guess  = prompt("guess the number");
